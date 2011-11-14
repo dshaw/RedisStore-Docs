@@ -15,7 +15,13 @@ io.configure(function () {
 
     `options.redis` (fn): Redis module. defaults to `node_redis`.
 
+    High level RedisClient config
+
     `options.host` (string): Redis host url.
+
+    `options.post` (string): Redis host port.
+
+    Low level RedisClient config
 
     `options.redisPub` (object): RedisClient configuration options or instance of RedisClient.
 
