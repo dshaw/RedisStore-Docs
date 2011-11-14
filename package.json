@@ -1,0 +1,20 @@
+{
+    "name": "RedisStore Docs"
+  , "version": "0.0.1"
+  , "description": "Socket.io RedisStore for distributed persistance and multi-process dispatch"
+  , "keywords": ["socket.io", "store", "redisstore", "redis", "dispatch"]
+  , "author": "Daniel D. Shaw <dshaw@dshaw.com> (http://dshaw.com)"
+  , "repository":{
+        "type": "git"
+      , "url": "https://github.com/dshaw/RedisStore-Docs"
+    }
+  , "directories" : {
+        "docs" : "docs"
+      , "examples" : "examples"
+    }
+  , "dependencies": {
+        "socket.io": ">= 0.8.5"
+      , "redis": ""
+    }
+  , "engines": { "node": ">= 0.4.0" }
+}
