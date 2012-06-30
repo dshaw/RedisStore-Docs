@@ -1,5 +1,6 @@
-Socket.IO RedisStore
-===
+# Socket.IO RedisStore
+
+Socket.io RedisStore is a remote persistent key/value storage engine for Socket.io as well as an interprocess dispatch layer for Socket.io servers. RedisStore uses Redis Pub/Sub to distribute Socket.io messages to all of the subscribed servers.
 
 ### Use it:
 
