@@ -37,6 +37,12 @@ io.configure(function () {
 })
 ```
 
+### Extend it:
+
+Want to implement your own dispatch layer, but Redis for your key/value store? Totally doable. In fact, that is exactly what `socket.io-zero` does. Zero provides a ZeroMQ-based dispatch layer, then uses RedisStores "storage" implementation.
+
+Example: https://github.com/dshaw/socket.io-zero
+
 ### Resources:
   - [redis.io](https://redis.io)
   - [socket.io](http://socket.io/)
