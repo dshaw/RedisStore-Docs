@@ -29,6 +29,8 @@ io.configure(function () {
 
     `options.redisClient` (object): RedisClient configuration options or instance of RedisClient.
 
+    Custom message packing
+
     `options.pack` (fn): Packing mechanism. defaults msgpack if installed, otherwise `JSON.stringify`.
 
     `options.unpack` (fn): Unpacking mechanism. defaults msgpack if installed, otherwise `JSON.parse`.
