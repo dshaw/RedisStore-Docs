@@ -1,7 +1,7 @@
-RedisStore Configuration
-===
+#RedisStore Configuration
 
-== `RedisStore([options])`
+
+##`RedisStore([options])`
 
 ```javascript
 io.configure(function () {
@@ -9,28 +9,28 @@ io.configure(function () {
 })
 ```
 
-== `options` parameters
+##options parameters
 
-    `options.nodeId` (string|fn): string or id generator function. default will generate unique id.
+`options.nodeId` (fn): id generator function. default will generate a random unique id.
 
-    `options.redis` (fn): Redis module. defaults to `node_redis`.
+`options.redis` (fn): Redis module. defaults to `node_redis`.
 
-    High level RedisClient config
+###High-level RedisClient config
 
-    `options.host` (string): Redis host url.
+`options.host` (string): Redis host url.
 
-    `options.post` (string): Redis host port.
+`options.post` (string): Redis host port.
 
-    Low level RedisClient config
+###Low-level RedisClient config
 
-    `options.redisPub` (object): RedisClient configuration options or instance of RedisClient.
+`options.redisPub` (object): RedisClient configuration options or instance of RedisClient.
 
-    `options.redisSub` (object): RedisClient configuration options or instance of RedisClient.
+`options.redisSub` (object): RedisClient configuration options or instance of RedisClient.
 
-    `options.redisClient` (object): RedisClient configuration options or instance of RedisClient.
+`options.redisClient` (object): RedisClient configuration options or instance of RedisClient.
 
-    Custom message packing
+###Custom message packing
 
-    `options.pack` (fn): Packing mechanism. defaults msgpack if installed, otherwise `JSON.stringify`.
+`options.pack` (fn): Packing mechanism. defaults msgpack if installed, otherwise `JSON.stringify`.
 
-    `options.unpack` (fn): Unpacking mechanism. defaults msgpack if installed, otherwise `JSON.parse`.
+`options.unpack` (fn): Unpacking mechanism. defaults msgpack if installed, otherwise `JSON.parse`.
