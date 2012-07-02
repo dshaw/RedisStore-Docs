@@ -1,7 +1,7 @@
 #RedisStore Configuration
 
 
-##`RedisStore([options])`
+##RedisStore([options])
 
 ```javascript
 io.configure(function () {
